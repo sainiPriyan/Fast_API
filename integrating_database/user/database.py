@@ -12,5 +12,3 @@ SessionLocal  = sessionmaker(autocommit = False,
                                 bind = engine)
 
 Base = declarative_base()
-
-
